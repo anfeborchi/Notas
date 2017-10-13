@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>BorNote</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1" , maximum-scale=1.0, user-scalable="no" />
+    <meta name="theme-color" content="#666" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../IconosOnpixler/style.css">
+</head>
+
+<body>
+    <h3>BorNote</h3>
+    <div class="Apli">
+        <form>
+           <div class="ContenedorInputs" id="ContenedorNombre">
+                <h2 id="Nombre">Nombre</h2>
+                <input type="text" name="Nombre" class="Inputs" id="InputNombre" maxlength="40">
+            </div>
+            <div class="ContenedorInputs" id="ContenedorTags">
+                <h2 id="Tags">Tags</h2>            
+                <input type="text" name="Tags" class="Inputs" id="InputTags">
+            </div>
+            <br>
+            <div>
+            <select alt="Tipo de letra" id="TipoLetra">
+                <option value="Cursive">Cursive</option>
+                <option value="Arial">Arial</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+            <select alt="Tamaño de letra" id="TamañoLetra">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="8">8</option>
+            </select>
+            <select alt="Color de Letra" id="ColorLetra">
+                <option value="Negro">Negro</option>
+                <option value="Azul">Azul</option>
+                <option value="Gris">Gris</option>
+                <option value="Rojo">Rojo</option>
+            </select>
+            <br>
+            <textarea class="Nota" id="Text"></textarea>     
+            <input type="button" name="Guardar" class="BtnGuardar" id="BtnGuardar" value="Guardar">
+            </div>
+        </form>
+    </div>
+    
+    <div class="ContenedorLista">
+       <div class="Barra">
+            <h2>Notas</h2> <section class="icon-bin" id="icon-bin"></section><section class="icon-cross" id="icon-cross"></section>
+        </div>
+        <ul class="Lista" id="Lista">
+            <li id="Msj">No hay notas guardadas aun.</li>
+        </ul>
+    </div>
+</body>
+    <script src="js.js"></script>
+</html>

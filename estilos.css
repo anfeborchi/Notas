@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #888;
+    font-family:monospace;
+}
+
+h3 {
+    background-color: #777;
+    border-bottom: 2px solid #666;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    color: darkred;
+    font-family: cursive;
+    box-shadow: 1px 1px 10px 1px #000;
+    cursor: pointer;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+.Apli {
+    background-color: gray;
+    border: 1px solid #445;
+    padding: 10px;
+    margin: 15px;
+}
+
+.Apli h2 {
+    border-radius: 3px;
+    padding: 5px 5px 0px 5px;
+    margin: 10px 0px;
+    text-align: left;
+    color: darkred;
+    font-size: 1.5em;
+    cursor: default;
+}
+
+.Inputs {
+    display: none;
+    background-color: gray;
+    margin: 10px 6px 2px 6px;
+    width: 98%;
+    font-size: 1.3em;
+    border-style: none;
+    outline: 0;
+    transition: 1s all ease;
+}
+
+.ContenedorInputs {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #666;
+    border-radius: 0px 0px 7px 4px;
+    transition: 0.6s all ease;
+}
+
+.ContenedorFocus {
+    border-bottom: 2px solid red;
+    transition: 0.6s all ease;
+}
+
+.BtnGuardar {
+    display: block;
+    background: gray; 
+    border: 1px solid darkred;
+    border-radius: 1px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 2%;
+    font-size: 1.1em;
+    outline-color: red;
+    cursor: pointer;
+}
+
+.BtnGuardar:hover {
+    background: #888; 
+}
+
+/*TEXTAREA*/
+
+.Apli select {
+    outline: 0;
+}
+
+textarea {
+    width: 98%;
+    height: 250px;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 3px;
+    font-size: 0.8em;
+    font-family: cursive;
+    resize: none;
+    outline-color: darkred;
+}
+
+/*ESTILOS PARA OPCIONES DE TEXTAREA*/
+
+
+/*LISTA*/
+.barra{}
+
+.lista {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 32.2%;
+}
+
+.ContenedorLista {
+    background: #777;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.ContenedorLista h2 {
+    background: #666;
+    border-bottom: 2px solid #000;
+    font-size: 1.4em;
+    padding: 10px;
+    color: darkred;
+}
+
+.ContenedorLista li {
+    padding: 10px;
+    list-style: none;
+}
+
+.ContenedorLista li h4 {
+    font-size: 1.1em;
+}
+
+.ContenedorLista li h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ContenedorLista li p {
+    padding-top: 5px;
+    font-size: 0.9em;
+}
+
+.ContenedorLista li input {
+    float: right;
+    margin-right: 10px;
+    margin-top: -22px;
+}
+
+.icon-bin, .icon-cross{
+    width: 20px;
+    font-size: 1.2em;
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+    color: darkred;
+    cursor: pointer;
+}
+
+.icon-cross{
+    margin-right: 30px;
+    display: none;
+}
+
+.icon-crossCancelar {
+    display: block;
+}
+
+.icon-bin:hover{
+    color: red;
+}
+
+.Notas {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 10px 0px;
+}
+
+.Notas:hover {
+    background: #666;
+    cursor: pointer;
+} 
+
+.BorrarNotas {
+    display: block;
+}
+
+.NoBorrarNotas {
+    display: none;
+}
+
+.SelectNoteDel:hover {
+    background: #C72626;
+    text-decoration: line-through; 
+}
